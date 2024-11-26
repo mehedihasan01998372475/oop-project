@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="510.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.practicepoject.amusemenetpark.FinancialSupervision">
+   <children>
+      <Label layoutX="254.0" layoutY="52.0" text="Financial page">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="52.0" layoutY="119.0" prefHeight="25.0" prefWidth="169.0" promptText="Financial supervision" />
+      <TextArea layoutX="126.0" layoutY="227.0" prefHeight="159.0" prefWidth="402.0" />
+   </children>
+</AnchorPane>
