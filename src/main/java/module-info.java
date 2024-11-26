@@ -1,10 +1,8 @@
-module com.example.oopproject {
+module oop.practicepoject.amusemenetpark {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.oopproject to javafx.fxml;
-    exports com.example.oopproject;
-    exports com.example.oopproject.Nawez;
-    opens com.example.oopproject.Nawez to javafx.fxml;
+    opens oop.practicepoject.amusemenetpark to javafx.fxml;
+    exports oop.practicepoject.amusemenetpark;
 }
