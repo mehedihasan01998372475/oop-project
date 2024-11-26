@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.Survillence">
+   <children>
+      <Label layoutX="207.0" layoutY="26.0" text="Survillence">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="108.0" prefHeight="17.0" prefWidth="177.0" text="Park Survillence camera no">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="169.0" text="Zoom Camera">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="222.0" text="Notify">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="192.0" layoutY="104.0" prefWidth="150.0" promptText="Select Camera no" />
+      <Button layoutX="192.0" layoutY="165.0" mnemonicParsing="false" text="Zoom in">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="274.0" layoutY="165.0" mnemonicParsing="false" text="Zoom out">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="161.0" layoutY="218.0" promptText="Notify anything" />
+      <Button layoutX="224.0" layoutY="274.0" mnemonicParsing="false" text="Send">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
