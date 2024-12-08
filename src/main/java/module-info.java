@@ -5,4 +5,6 @@ module com.example.oopproject {
 
     opens com.example.oopproject to javafx.fxml;
     exports com.example.oopproject;
+    exports com.example.oopproject.Nawez;
+    opens com.example.oopproject.Nawez to javafx.fxml;
 }
