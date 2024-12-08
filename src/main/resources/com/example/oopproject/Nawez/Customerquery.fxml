@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.Nawez.Customerquery">
+   <children>
+      <TextField layoutX="158.0" layoutY="103.0" text="Put your customer id" />
+      <TextField layoutX="158.0" layoutY="140.0" text="Enter your name" />
+      <TextField layoutX="158.0" layoutY="175.0" text="Ask about ticket" />
+      <TextField layoutX="158.0" layoutY="225.0" prefHeight="27.0" prefWidth="149.0" text="Ask anything" />
+      <Label layoutX="64.0" layoutY="107.0" text="Customer id">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="144.0" text="Customer name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="175.0" prefHeight="25.0" prefWidth="88.0" text="Ticket Inquiry">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="232.0" text="General Inquiry">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="216.0" layoutY="22.0" text="Customer query">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="198.0" layoutY="299.0" mnemonicParsing="false" text="Send inquiry">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

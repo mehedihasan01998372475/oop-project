@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.Nawez.SecurityGuardResponse">
+   <children>
+      <TextField layoutX="121.0" layoutY="86.0" promptText="Enter Sg id" />
+      <TextField layoutX="121.0" layoutY="133.0" promptText="Enter Sg name" />
+      <TextField layoutX="121.0" layoutY="175.0" promptText="Enter location" />
+      <TextField layoutX="121.0" layoutY="221.0" promptText="Write report" />
+      <Label layoutX="39.0" layoutY="90.0" text="SG id">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="137.0" text="SG name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="179.0" text="SG location">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="225.0" text="Report Log">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="23.0" text="Security Guard Response">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="225.0" layoutY="286.0" mnemonicParsing="false" text="Submit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
