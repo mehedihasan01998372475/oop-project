@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="457.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.practicepoject.amusemenetpark.GuestServices">
+<AnchorPane prefHeight="457.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rafid.GuestServices">
    <children>
       <Label layoutX="275.0" layoutY="57.0" prefHeight="27.0" prefWidth="128.0" text="Guest Service">
          <font>

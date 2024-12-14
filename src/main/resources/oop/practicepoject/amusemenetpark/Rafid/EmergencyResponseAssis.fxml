@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="419.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.practicepoject.amusemenetpark.EmergencyResponseAssis">
+<AnchorPane prefHeight="419.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rafid.EmergencyResponseAssis">
    <children>
       <Label layoutX="198.0" layoutY="43.0" prefHeight="27.0" prefWidth="274.0" text="Emergency Response Assistant">
          <font>

@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="507.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.practicepoject.amusemenetpark.RidesOption">
+<AnchorPane prefHeight="507.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rafid.RidesOption">
    <children>
       <Label layoutX="297.0" layoutY="60.0" prefHeight="27.0" prefWidth="113.0" text="Rides Option">
          <font>

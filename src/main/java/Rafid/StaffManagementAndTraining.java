@@ -1,4 +1,4 @@
-package oop.practicepoject.amusemenetpark;
+package Rafid;
 
 public class StaffManagementAndTraining
 {
