@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.Nawez.CrowdControlPeak">
    <children>
       <Label layoutX="190.0" layoutY="24.0" text="Crowd Controller peak">
@@ -18,7 +17,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Button layoutX="210.0" layoutY="98.0" mnemonicParsing="false" text="Check activity">
+      <Button fx:id="Checkactivityhandle" layoutX="210.0" layoutY="98.0" mnemonicParsing="false" text="Check activity">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
