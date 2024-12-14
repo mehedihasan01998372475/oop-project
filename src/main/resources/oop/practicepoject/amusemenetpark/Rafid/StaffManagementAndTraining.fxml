@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="570.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rafid.StaffManagementAndTraining">
+   <children>
+      <Label layoutX="319.0" layoutY="48.0" prefHeight="27.0" prefWidth="219.0" text="Stuff Management page">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfieldf" layoutX="188.0" layoutY="116.0" />
+      <TextField fx:id="textfieldsf" layoutX="188.0" layoutY="167.0" />
+      <Label fx:id="namenewemployeef" layoutX="37.0" layoutY="120.0" text="Name of new employee" />
+      <Label fx:id="shift" layoutX="37.0" layoutY="171.0" text="Shift" />
+      <TableView fx:id="tableviewp" layoutX="155.0" layoutY="260.0" prefHeight="200.0" prefWidth="515.0">
+        <columns>
+          <TableColumn fx:id="nosf" prefWidth="159.0" text="Notices of Shift" />
+          <TableColumn fx:id="monitorf" prefWidth="180.0" text="Monitor" />
+            <TableColumn fx:id="analyzef" prefWidth="189.0" text="Analyze" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

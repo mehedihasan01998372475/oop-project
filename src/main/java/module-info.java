@@ -5,4 +5,6 @@ module oop.practicepoject.amusemenetpark {
 
     opens oop.practicepoject.amusemenetpark to javafx.fxml;
     exports oop.practicepoject.amusemenetpark;
+    exports Rafid;
+    opens Rafid to javafx.fxml;
 }
