@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="510.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopprojectfinal.CheckRideAvailability">
+<AnchorPane prefHeight="658.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopprojectfinal.CheckRideAvailability">
    <children>
       <ComboBox layoutX="252.0" layoutY="67.0" prefWidth="150.0" />
       <Label layoutX="23.0" layoutY="70.0" text=" Check Ride Availability Option:">
@@ -17,14 +16,19 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Button layoutX="252.0" layoutY="113.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="170.0" text="Load Ride List" />
-      <Button layoutX="242.0" layoutY="168.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="170.0" text="View Availability" />
-      <TableView layoutX="73.0" layoutY="228.0" prefHeight="200.0" prefWidth="358.0">
+      <Button layoutX="202.0" layoutY="329.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="170.0" text="Filter Available Ride" />
+      <TableView layoutX="108.0" layoutY="115.0" prefHeight="200.0" prefWidth="358.0">
         <columns>
-          <TableColumn prefWidth="323.0" text="Select Ride For Details" />
+          <TableColumn prefWidth="357.0" />
           <TableColumn minWidth="0.0" prefWidth="0.0" />
         </columns>
       </TableView>
-      <Button layoutX="143.0" layoutY="446.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="228.0" text="Exit Ride Availability view" />
+      <Button layoutX="173.0" layoutY="594.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="228.0" text="Exit Ride Availability view" />
+      <TableView layoutX="126.0" layoutY="385.0" prefHeight="200.0" prefWidth="358.0">
+         <columns>
+            <TableColumn prefWidth="357.0" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" />
+         </columns>
+      </TableView>
    </children>
 </AnchorPane>

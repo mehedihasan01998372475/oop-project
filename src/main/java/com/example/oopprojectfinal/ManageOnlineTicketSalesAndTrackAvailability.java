@@ -1,6 +1,6 @@
 package com.example.oopprojectfinal;
 
-public class GetLineRidesQueueSystem
+public class ManageOnlineTicketSalesAndTrackAvailability
 {
     @javafx.fxml.FXML
     public void initialize() {
