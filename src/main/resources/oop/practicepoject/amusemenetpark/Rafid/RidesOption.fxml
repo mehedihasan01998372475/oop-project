@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="507.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rafid.RidesOption">
    <children>
       <Label layoutX="297.0" layoutY="60.0" prefHeight="27.0" prefWidth="113.0" text="Rides Option">
@@ -15,8 +14,8 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <ListView layoutX="231.0" layoutY="122.0" prefHeight="234.0" prefWidth="287.0" />
-      <ComboBox layoutX="41.0" layoutY="139.0" prefWidth="150.0" promptText="        Ride &amp; Thrills" />
-      <Button layoutX="331.0" layoutY="386.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="Explore" />
+      <ListView fx:id="viewscenep" layoutX="231.0" layoutY="122.0" prefHeight="234.0" prefWidth="287.0" />
+      <ComboBox fx:id="ridethrillf" layoutX="41.0" layoutY="139.0" prefWidth="150.0" promptText="        Ride &amp; Thrills" />
+      <Button layoutX="331.0" layoutY="386.0" mnemonicParsing="false" onAction="#exploreHandle" prefHeight="25.0" prefWidth="62.0" text="Explore" />
    </children>
 </AnchorPane>

@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="457.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rafid.GuestServices">
    <children>
       <Label layoutX="275.0" layoutY="57.0" prefHeight="27.0" prefWidth="128.0" text="Guest Service">
@@ -15,8 +14,8 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <ComboBox layoutX="47.0" layoutY="125.0" prefWidth="150.0" promptText="      Guest Services" />
-      <ListView layoutX="246.0" layoutY="129.0" prefHeight="208.0" prefWidth="281.0" />
-      <Button layoutX="423.0" layoutY="363.0" mnemonicParsing="false" text="Collect response" />
+      <ComboBox fx:id="guestservicesx" layoutX="47.0" layoutY="125.0" prefWidth="150.0" promptText="      Guest Services" />
+      <ListView fx:id="lviewsf" layoutX="246.0" layoutY="129.0" prefHeight="208.0" prefWidth="281.0" />
+      <Button layoutX="423.0" layoutY="363.0" mnemonicParsing="false" onAction="#collecthandle" text="Collect response" />
    </children>
 </AnchorPane>
