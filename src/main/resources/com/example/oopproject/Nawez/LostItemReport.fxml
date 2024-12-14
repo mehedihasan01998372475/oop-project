@@ -37,7 +37,7 @@
       </Label>
       <TextField fx:id="Sgid" layoutX="151.0" layoutY="104.0" promptText="Enter Sg id" />
       <TextField fx:id="Sgname" layoutX="151.0" layoutY="148.0" promptText="Enter Sg name" />
-      <TextField fx:id="Visitorid" layoutX="151.0" layoutY="197.0" promptText="Enter Visitor id" />
+      <TextField fx:id="Visitorid" layoutX="151.0" layoutY="188.0" promptText="Enter Visitor id" />
       <TextField fx:id="Visitorname" layoutX="151.0" layoutY="227.0" promptText="Enter Visitor name" />
       <TextField fx:id="Reportlog" layoutX="151.0" layoutY="270.0" promptText="Enter report" />
       <Label layoutX="77.0" layoutY="274.0" text="Report log">
@@ -55,8 +55,8 @@
           <TableColumn fx:id="Sgidcol" prefWidth="75.0" text="SGiD" />
           <TableColumn fx:id="Sgnamecol" prefWidth="75.0" text="SG name" />
             <TableColumn fx:id="Visitoridcol" prefWidth="75.0" text="Visitorid" />
-            <TableColumn fx:id="Visitornamecol" prefWidth="75.0" text="Visitor name" />
-            <TableColumn fx:id="ReportlogCol" prefWidth="75.0" text="Report" />
+            <TableColumn fx:id="Visitornamecol" prefWidth="102.0" text="Visitor name" />
+            <TableColumn fx:id="ReportlogCol" prefWidth="48.0" text="Report" />
         </columns>
       </TableView>
    </children>
